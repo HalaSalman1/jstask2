@@ -1,10 +1,4 @@
-var data="" ;
-var money=['dollar','dinar','nis'];
-for(var i=0 ; i<money.length;i++){
-data+= `<option > ${money[i]}</option>`
-}
-document.querySelector("select").innerHTML=data;
-//////
+
 var formreg=document.querySelector(".registerForm");
 var para =document.querySelector("p");
 formreg.onsubmit =function(e) {
